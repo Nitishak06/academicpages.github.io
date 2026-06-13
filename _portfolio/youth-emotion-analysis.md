@@ -13,4 +13,4 @@ A project focused on exploring text data and understanding emotional trends in d
 
 ## Tech Stack
 * **Languages:** Python
-* **Libraries:** Pandas, NumPy, Seaborn, Matplotlib, NLTK
+* **Frameworks & Libraries:** Flask, Transformers (Hugging Face), DistilBERT, Pandas, NumPy, Seaborn, Matplotlib, NLTK
