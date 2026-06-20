@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 permalink: /year-archive/
 title: "Blog posts"
@@ -16,4 +16,28 @@ redirect_from:
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
+
+---
+layout: archive
+permalink: /year-archive/
+title: "Blog posts"
+author_profile: true
+redirect_from:
+  - /wordpress/blog-posts/
+---
+
+{% include base_path %}
+
+<h2 class="archive__subtitle">2026</h2>
+
+<article class="archive__item" style="margin-bottom: 2em;">
+  <h3 class="archive__item-title" style="margin-top: 0;">
+    <a href="https://dev.to/knitisha" target="_blank" rel="noopener noreferrer">
+      My First Step into the World of LLMs 🚀
+    </a>
+  </h3>
+  <p class="archive__item-excerpt">
+    I’m documenting my daily journey into Artificial Intelligence, Data Science, and specifically, the LangChain framework. I’ve decided that the best way to truly understand these complex technologies is to “learn in public.”
+  </p>
+</article>
